@@ -12,27 +12,59 @@
     
     <!-- Beginning of header section -->
     <header>
-        <div>
-            <h1>Simple Games</h1>
-        </div>
-
-        <div>
-            <h2>Username Placeholder</h2>
-        </div>
+        <h1>Simple Games</h1>
     </header>
     <!-- End of header section -->
 
     <main>
-
         <!-- Beginning of home screen section -->
         <article id="game-selection">
             <h1>Select A Game</h1>
             
-            <button id="tic-tac-toe-btn">
-                Tic Tac Toe
-            </button>
+            <div id="btn-container">
+                <button id="tic-tac-toe-btn">
+                    Tic-Tac-Toe
+                </button>
+                
+                <button id="matching-btn">
+                    Match The Pairs
+                </button>
+
+                <button id="simon-btn">
+                    Simon Says
+                </button>
+
+                <button id="rock-paper-scissors-btn">
+                    Rock Paper Scissors
+                </button>
+            </div>
+        </article>
+        <!-- End of home screen section -->
+
+        <!-- Tic Tac Toe Game -->
+        <article id="tic-tac-toe">
+            <h1>Tic-Tac-Toe</h1>
+
+            <section id="tic-tac-toe-board">
+                <div id="top-left"></div>
+                <div id="top-center"></div>
+                <div id="top-right"></div>
+                <div id="mid-left"></div>
+                <div id="mid-center"></div>
+                <div id="mid-right"></div>
+                <div id="bottom-left"></div>
+                <div id="bottom-center"></div>
+                <div id="bottom-right"></div>
+            </section>
+
         </article>
     </main>
+
+
+
+
+    <!-- Connecting Javascript File -->
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

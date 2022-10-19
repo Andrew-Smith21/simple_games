@@ -1,0 +1,52 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 25px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#game-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+#game-selection h1 {
+    padding: 15px;
+    font-size: 40px;
+}
+
+#game-selection button {
+    padding: 40px;
+    font-size: 20px;
+}
+
+#tic-tac-toe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tic-tac-toe h1 {
+    padding: 15px;
+    font-size: 40px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        align-items: center;
+    }
+}
