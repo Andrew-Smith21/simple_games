@@ -31,6 +31,15 @@ header {
     font-size: 20px;
 }
 
+.menu {
+    background-color: skyblue;
+    border-radius: 30px;
+}
+
+.menu:hover {
+    opacity: 80%;   
+}
+
 #tic-tac-toe {
     display: flex;
     flex-direction: column;
@@ -42,11 +51,21 @@ header {
     font-size: 40px;
 }
 
+#tic-tac-toe-board {
+    background-color: lightslategray;
+    padding: 300px;
+    margin: auto;
+}
+
 
 
 @media only screen and (max-width: 600px) {
 
     header {
+        align-items: center;
+    }
+
+    #btn-container {
         align-items: center;
     }
 }
